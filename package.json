@@ -1,0 +1,26 @@
+{
+  "name": "jarvie-task",
+  "version": "1.0.0",
+  "description": "jarvis task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhs007/jarvie-task.git"
+  },
+  "keywords": [
+    "task"
+  ],
+  "author": "zhs007",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/zhs007/jarvie-task/issues"
+  },
+  "homepage": "https://github.com/zhs007/jarvie-task#readme",
+  "dependencies": {
+    "ioredis": "^3.2.1",
+    "moment": "^2.19.1"
+  }
+}
