@@ -1,5 +1,5 @@
 {
-  "name": "jarvie-task",
+  "name": "jarvis-task",
   "version": "1.0.1",
   "description": "jarvis task",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhs007/jarvie-task.git"
+    "url": "git+https://github.com/zhs007/jarvis-task.git"
   },
   "keywords": [
     "task"
@@ -16,9 +16,9 @@
   "author": "zhs007",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/zhs007/jarvie-task/issues"
+    "url": "https://github.com/zhs007/jarvis-task/issues"
   },
-  "homepage": "https://github.com/zhs007/jarvie-task#readme",
+  "homepage": "https://github.com/zhs007/jarvis-task#readme",
   "dependencies": {
     "moment": "^2.19.1"
   }
