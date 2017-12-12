@@ -1,6 +1,6 @@
 {
   "name": "jarvis-task",
-  "version": "1.0.7",
+  "version": "1.1.8",
   "description": "jarvis task",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/zhs007/jarvis-task#readme",
   "dependencies": {
-    "moment": "^2.19.1"
+    "moment": "^2.19.1",
+    "shelljs": "^0.7.8"
   }
 }
