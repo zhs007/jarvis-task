@@ -17,11 +17,15 @@ exports.hash_md5 = hash_md5;
 
 exports.startTaskChain = startTaskChain;
 
-const { JARVISTASK_NAMEID_INITCRAWLERMGR } = require('./lib/taskdef');
+const { JARVISTASK_NAMEID_INITCRAWLERMGR, JARVISTASK_NAMEID_SHELL } = require('./lib/taskdef');
 const { regTaskFactory_InitCrawlerMgr } = require('./lib/task_initcrawlermgr');
+const { regTaskFactory_Shell } = require('./lib/task_shell');
 
 exports.JARVISTASK_NAMEID_INITCRAWLERMGR = JARVISTASK_NAMEID_INITCRAWLERMGR;
+exports.JARVISTASK_NAMEID_SHELL = JARVISTASK_NAMEID_SHELL;
+
 exports.regTaskFactory_InitCrawlerMgr = regTaskFactory_InitCrawlerMgr;
+exports.regTaskFactory_Shell = regTaskFactory_Shell;
 
 const crawlercore = require('crawlercore');
 exports.crawlercore = crawlercore;

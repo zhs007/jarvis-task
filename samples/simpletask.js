@@ -6,7 +6,7 @@ const TASK_NAMEID_HELLOWORLD = 'helloworld';
 
 class Task_HelloWorld extends Task {
     constructor(cfg) {
-        super(TASK_NAMEID_HELLOWORLD);
+        super(TASK_NAMEID_HELLOWORLD, cfg);
     }
 
     onStart() {
