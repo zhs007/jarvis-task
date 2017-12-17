@@ -27,6 +27,6 @@ let curtaskchain = new TaskChain('mainchain');
 let taskd = new TaskDeamon();
 
 curtaskchain.pushBack(taskFactory.newTask(TASK_NAMEID_HELLOWORLD, {}));
-taskd.addTaskChain_DayClockTimer(curtaskchain, '10:00:00', 1000, '23:00:00');
+taskd.addTaskChain_DayClock(curtaskchain, '10:00:00');
 
 taskd.start(1000);

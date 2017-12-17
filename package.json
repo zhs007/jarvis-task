@@ -1,6 +1,6 @@
 {
   "name": "jarvis-task",
-  "version": "1.1.20",
+  "version": "1.1.21",
   "description": "jarvis task",
   "main": "index.js",
   "scripts": {
