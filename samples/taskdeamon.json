@@ -1,0 +1,22 @@
+{
+  "nameid": "taskdeamon",
+  "tick": 1000,
+  "lsttask": [
+    {
+      "jarvis_shell": {
+        "filename": "./samples/shell.js"
+      },
+      "taskid": "jarvis_shell",
+      "tasktype": "dayclock",
+      "clock": "09:00:00"
+    },
+    {
+      "jarvis_shell": {
+        "filename": "./samples/shell2.js"
+      },
+      "taskid": "jarvis_shell",
+      "tasktype": "dayclock",
+      "clock": "10:00:00"
+    }
+  ]
+}

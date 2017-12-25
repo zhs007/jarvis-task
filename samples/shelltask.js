@@ -4,7 +4,7 @@ const { Task, TaskDeamon, TaskChain, TaskFactory, regTaskFactory_Shell, JARVISTA
 
 let taskFactory = new TaskFactory('mainfactory');
 regTaskFactory_Shell(taskFactory);
-let curtask = taskFactory.newTask(JARVISTASK_NAMEID_SHELL, {filename: './samples/shell.js'})
+let curtask = taskFactory.newTask(JARVISTASK_NAMEID_SHELL, {filename: './samples/shell.js'});
 let taskd = new TaskDeamon();
 
 taskd.addTask_DayClock(curtask, '10:00:00');
