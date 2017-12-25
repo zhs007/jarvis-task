@@ -5,7 +5,7 @@ const { Task_Chain, regTaskFactory_Chain } = require('./lib/task_chain');
 const { TaskDeamon } = require('./lib/taskdeamon');
 const { TaskFactory } = require('./lib/taskfactory');
 const { generateUUID, hash_md5 } = require('./lib/utils');
-const { startTaskChain, startTaskDeamon } = require('./lib/startfunc');
+const { startTask, startTaskDeamon } = require('./lib/startfunc');
 
 exports.Task = Task;
 exports.Task_Chain = Task_Chain;
@@ -15,7 +15,7 @@ exports.TaskDeamon = TaskDeamon;
 exports.generateUUID = generateUUID;
 exports.hash_md5 = hash_md5;
 
-exports.startTaskChain = startTaskChain;
+exports.startTask = startTask;
 exports.startTaskDeamon = startTaskDeamon;
 
 const { JARVISTASK_NAMEID_INITCRAWLERMGR, JARVISTASK_NAMEID_SHELL, JARVISTASK_NAMEID_CHAIN } = require('./lib/taskdef');
