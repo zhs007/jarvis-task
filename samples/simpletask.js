@@ -1,6 +1,6 @@
 "use strict";
 
-const { Task, TaskDeamon, TaskChain, TaskFactory } = require('../index');
+const { Task, TaskDeamon, TaskChain, TaskFactory, logger } = require('../index');
 
 const TASK_NAMEID_HELLOWORLD = 'helloworld';
 
@@ -12,7 +12,7 @@ class Task_HelloWorld extends Task {
     onStart() {
         super.onStart();
 
-        console.log('hello world.');
+        logger('info', 'hello world.');
 
         this.onEnd();
     }
