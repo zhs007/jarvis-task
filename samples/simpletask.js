@@ -12,7 +12,7 @@ class Task_HelloWorld extends Task {
     onStart() {
         super.onStart();
 
-        logger('info', 'hello world.');
+        logger.log('info', 'hello world.');
 
         this.onEnd();
     }
