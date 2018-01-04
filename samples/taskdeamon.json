@@ -17,6 +17,16 @@
       "tasknameid": "jarvis_shell",
       "tasktype": "dayclock",
       "clock": "10:00:00"
+    },
+    {
+      "jarvis_shell": {
+        "filename": "./samples/shelltimer.js"
+      },
+      "tasknameid": "jarvis_shell",
+      "tasktype": "dayclocktimer",
+      "startclock": "09:07:00",
+      "endclock": "23:59:00",
+      "timer": 300000
     }
   ]
 }

@@ -1,8 +1,8 @@
 
-noticemsg('haha');
+log('info', 'haha');
 
 if (shell.which('git') && shell.which('node')) {
-    noticemsg('has git & node');
+    log('info', 'has git & node');
 }
 
-noticemsg('end');
+log('info', 'end');
