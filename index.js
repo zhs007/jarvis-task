@@ -4,6 +4,7 @@ const { Task } = require('./lib/task');
 const { Task_Chain, regTaskFactory_Chain } = require('./lib/task_chain');
 const { TaskDeamon } = require('./lib/taskdeamon');
 const { TaskFactory } = require('./lib/taskfactory');
+const { TaskStatistics } = require('./lib/taskstatistics');
 const { generateUUID, hash_md5, initDailyRotateFileLog, log, setLogger } = require('./lib/utils');
 const { startTask, startTaskDeamon } = require('./lib/startfunc');
 
@@ -11,6 +12,7 @@ exports.Task = Task;
 exports.Task_Chain = Task_Chain;
 exports.TaskFactory = TaskFactory;
 exports.TaskDeamon = TaskDeamon;
+exports.TaskStatistics = TaskStatistics;
 
 exports.generateUUID = generateUUID;
 exports.hash_md5 = hash_md5;
